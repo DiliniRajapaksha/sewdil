@@ -12,6 +12,8 @@ images:
   - url: /assets/img/polo/thumb.png
     alt: How to make a Polo shirt cake
     title: How to make a Polo shirt cake
+    pin: /assets/img/polo/pin.png
+    pin-desc: Love this polo shirt cake.
 
 image: /assets/img/polo/thumb.png
 
