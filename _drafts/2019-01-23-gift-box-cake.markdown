@@ -2,16 +2,16 @@
 layout: post
 comments: true
 
-title:  "How to make a Polo shirt cake"
-date:   2019-01-17 13:33:41 +1100
+title:  "How to make a gift box cake"
+date:   2019-01-23 13:33:41 +1100
 categories: blog
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
-description: "How to video on making a Ralph lauren polo shirt cake"
+description: "Making a gift box cake"
 excerpt_separator: <!--more-->
 images: 
-  - url: /assets/img/polo/thumb.png
-    alt: How to make a Polo shirt cake
-    title: How to make a Polo shirt cake
+  - url: /assets/img/giftbox/thumb.png
+    alt: How to make a gift box cake
+    title: How to make a gift box cake
  
 ---
 <div class="center first-image">
@@ -23,4 +23,7 @@ images:
 
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h8HAf1g4tLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="center">	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/rMEAUlU7eQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
