@@ -12,7 +12,10 @@ images:
   - url: /assets/img/polo/thumb.png
     alt: How to make a Polo shirt cake
     title: How to make a Polo shirt cake
- 
+
+image: /assets/img/polo/thumb.png
+
+
 ---
 <div class="center first-image">
 

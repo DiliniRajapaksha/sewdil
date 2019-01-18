@@ -25,3 +25,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 permalink: /:categories/:title/
+author: https://www.sweetvalleycreations.com
+name: Sweet Valley Creations
