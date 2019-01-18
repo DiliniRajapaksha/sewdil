@@ -6,7 +6,7 @@ title:  "How to make a Wrist watch cake"
 date:   2019-01-24 13:33:41 +1100
 categories: blog
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
-description: "How to video on making a Ralph lauren Wrist watch cake"
+description: "Making a Wrist watch cake"
 excerpt_separator: <!--more-->
 images: 
   - url: /assets/img/watch/thumb.png

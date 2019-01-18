@@ -6,7 +6,7 @@ title:  "How to make a Thomas the tank engine cake"
 date:   2019-01-24 13:33:41 +1100
 categories: blog
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
-description: "How to video on making a Ralph lauren Thomas the tank engine cake"
+description: "Making Thomas the tank engine cake"
 excerpt_separator: <!--more-->
 images: 
   - url: /assets/img/thomas/thumb.png
