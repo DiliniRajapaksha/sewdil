@@ -19,6 +19,7 @@ images:
 {% assign image = page.images[0] %}
 {% include image.html image=image styleClass="first-image shadow" id="main-image" %}
 
+
 <p id="description">{{page.description}}</p>
 
 </div>
