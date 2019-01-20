@@ -3,7 +3,7 @@ layout: post
 comments: true
 
 title:  "How to make a Suit cake"
-date:   2019-01-19 13:33:41 +1100
+date:   2019-01-19
 categories: blog
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 description: "Making a tuxedo cake"

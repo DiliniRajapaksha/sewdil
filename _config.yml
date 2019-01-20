@@ -27,3 +27,8 @@ plugins:
 permalink: /:categories/:title/
 author: https://www.sweetvalleycreations.com
 name: Sweet Valley Creations
+
+collections:
+  recipes:
+    output: false
+    permalink: /recipes/:title/

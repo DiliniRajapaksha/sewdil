@@ -6,7 +6,7 @@ layout: default
 	<article class="post" markdown="1">
 
 	  <header class="blog-header">
-	    <h1 class="post-title tk-raleway" itemprop="name headline">{{ page.title }}</h1>
+	    <h1 class="post-title tk-raleway printable" itemprop="name headline">{{ page.title }}</h1>
 	    <div class="post-meta">
 	    <time id="publish-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"></time>
 	    {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</div>
@@ -18,7 +18,7 @@ layout: default
 
 	</article>
 
-	<section class="row">
+	<section id="email-form" class="row">
 		
 
 		<span data-sumome-listbuilder-embed-id="ca16b8a3ac28aeb90dbe06d723456f0559164eefbd5b078ea1522a8a6172e6fa"></span>

@@ -1,0 +1,48 @@
+---
+layout: post
+---
+<article class="recipe">
+	
+	<div class="image">
+		<img src="{{ page.images[0].url }}" alt="{{ page.title }}">
+	</div>
+
+	<div class="recipe-body">
+		{{ content }}
+	</div>
+
+	<ul id="recipe" class="recipe-overview printable">
+		{% if page.recipe.servings %}
+			<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
+		{% endif %}	
+		{% if page.recipe.prep %}
+			<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
+		{% endif %}
+		{% if page.recipe.cook %}
+		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
+		{% endif %}
+		<li id="print-link" title="Print recipe" class="float-right no-print">{% include printer-icon.svg %}</li>
+	</ul>
+
+
+	<div class="recipe-contents printable">
+		<div class="ingredients">
+			<h2>Ingredients</h2>
+			{{ page.recipe.ingredients_markdown | markdownify }}
+		</div>
+
+		<div class="directions">
+			<h2>Directions</h2>
+			{{ page.recipe.directions_markdown | markdownify }}
+		</div>
+	</div>
+
+	
+	<div class="cta">
+		<h2>More delicious recipes</h2>
+		<p>This is one of the many fantastic recipes available on this blog</p>
+		<div class="button"><a href="/recipes">Check out more recipes</a></div>
+	</div>
+	
+</article>
+
