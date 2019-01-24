@@ -1,0 +1,28 @@
+---
+layout: post
+---
+<article class="recipe">
+	
+	<div class="center first-image">
+
+<a href="{{page.youtube.url}}" target="_blank">
+		{% assign image = page.images[0] %}
+		{% include image.html image=image styleClass="first-image shadow" id="main-image" %}
+</a>
+		<p id="description">{{page.description}}</p>
+
+	</div>
+
+	<div class="row content">
+		{{ content }}
+	</div>
+
+	{% if page.youtube.embed %}
+
+	  	<div class="center row">
+			<iframe width="560" height="315" src="{{page.youtube.embed}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+	  {% endif %}
+	
+</article>

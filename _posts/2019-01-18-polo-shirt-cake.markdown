@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cake-video
 comments: true
 
 title:  "How to make a Polo shirt cake"
@@ -18,19 +18,26 @@ images:
 
 image: /assets/img/polo/thumb.png
 
+youtube:
+    url: https://youtu.be/h8HAf1g4tLA
+    embed: https://www.youtube.com/embed/h8HAf1g4tLA
 
 ---
-<div class="center first-image">
-
-{% assign image = page.images[0] %}
-{% include image.html image=image styleClass="first-image shadow" id="main-image" %}
-
-<p id="description">{{page.description}}</p>
-
-</div>
 
 
-<div class="center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/h8HAf1g4tLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+---
+
+## YOU'LL NEED...
+
+---
+
+- Three 8\*8 inch sqaure cakes.
+- Ganache or buttercream.
+- Fondant
+
+
+
+
+
+
 

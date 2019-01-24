@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cake-video
 comments: true
 
 title:  "How to make a Suit cake"
@@ -12,19 +12,10 @@ images:
   - url: /assets/img/tuxedo/thumb.png
     alt: How to make a suit cake
     title: How to make a suit cake
+
+youtube:
+    url: https://youtu.be/Ji4w5v-lZxY
+    embed: https://www.youtube.com/embed/Ji4w5v-lZxY
  
 ---
-<div class="center first-image">
 
-{% assign image = page.images[0] %}
-{% include image.html image=image styleClass="first-image shadow" id="main-image" %}
-
-<p id="description">{{page.description}}</p>
-
-</div>
-
-<div class="center">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ji4w5v-lZxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-</div>

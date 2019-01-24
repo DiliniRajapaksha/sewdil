@@ -141,6 +141,16 @@ a, a:visited, a:hover, a:active {
   list-style: none;
 }
 
+.recipe-container{
+   list-style: none;
+   display: flex;
+}
+.recipe-excerpt{
+  max-width: 25%;
+  padding: 1em;
+}
+
+
 a{
   text-orientation: none;
 }
@@ -472,6 +482,7 @@ display: flex;
 
 .post-excerpt{
   padding: 2em;
+
 }
 
 .thumb{
@@ -591,7 +602,7 @@ $light-grey: #999;
   .recipe-overview {
     padding: 0;
     margin:0;
-    margin-bottom: 2em;
+    margin-top: 2em;
 
     svg {
       position: relative;
@@ -614,11 +625,22 @@ $light-grey: #999;
   }
 
   .recipe-contents {
+    border: #999 1px dashed;
+    padding: 2em;
+    position: relative;
+
     @media #{$desktop} {
       display: flex;
     }
 
+    #print-link{
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+    }
+
     ul {
+      margin-left: 0;
       padding: 0;
       li {
         list-style-type: none;
@@ -636,25 +658,27 @@ $light-grey: #999;
         counter-increment: step-counter;
         list-style-type: none;
         position: relative;
-        margin-left: 34px;
 
         &:before {
           content: counter(step-counter);
           margin-right: 0px;
           background-color: #ff4e4e;
           color: white;
-          /* padding: 1px 7px; */
+          padding: 1px 7px;
           font-size: .7em;
           position: absolute;
           left: -34px;
-          top: -2px;
+          top: 0em;
           width: 25px;
           text-align: center;
         }
       }
     }
     .ingredients {
-      width: 300px;
+       @media #{$desktop} {
+         max-width: 40%;
+      }
+     
       padding: 0 43px 0 0;
     }
 
@@ -757,7 +781,7 @@ $light-grey: #999;
 
   .recipe-contents {
     display: block!important;
-
+    border: none;
     .ingredients {
       width: 100%!important;
       padding: 0 43px 0 0;
@@ -772,6 +796,10 @@ $light-grey: #999;
 
   ol li {
     margin: 10px 0 0 0;
+
+    &:before {
+      top: 4pt!important;
+    }
   }
 
 }/*end of @media print*/
@@ -780,3 +808,35 @@ $light-grey: #999;
   min-height: 350px;
 }
 
+.content{
+  margin-bottom: 2em;
+
+        @media #{$desktop} {
+         margin-bottom: 4em;
+      }
+}
+
+#recipe-footer{
+  visibility: hidden;
+  bottom: -16px;
+  position: absolute;
+  left: 0;
+  font-size: x-small;
+  color: #999;
+  font-family: sans-serif;
+}
+
+.item-title{
+  font-family: "raleway",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.3em;
+  text-transform: none;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+  font-size: 0.5em;
+  color: #1c1c1c;
+}
+.item-header{
+  margin-bottom: 1em;
+}
