@@ -14,7 +14,7 @@ images:
     title: How to make buttercream flower cupcakes
     pin: /assets/img/bcflowercupcake/pin.png
     pin-desc: Love these cup cakes with cute buttercream flowers.
-    pin-id: 479914904038480489
+
 
 image: /assets/img/bcflowercupcake/thumb.png
 
