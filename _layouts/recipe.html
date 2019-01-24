@@ -3,6 +3,7 @@ layout: post
 ---
 <article class="recipe" itemscope itemtype="http://schema.org/Recipe">
 	
+	<meta name="name" content={ page.title }}>
 	<div class="image">
 
 		<img src="{{ page.images[0].url | replace: '..', site.baseurl }}" data-pin-media="{{ page.images[0].pin | replace: '..', site.baseurl }}" alt="{{ page.title }}">
@@ -14,13 +15,13 @@ layout: post
 
 	<ul id="recipe" class="recipe-overview printable">
 		{% if page.recipe.servings %}
-			<li itemprop="recipeYield" title="Yields">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
+			<li title="Yields">{% include recipe-icon.html icon="quantity" %}<span itemprop="recipeYield">{{ page.recipe.servings }}</span></li>
 		{% endif %}	
 		{% if page.recipe.prep %}
-			<li itemprop="prepTime" title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
+			<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span itemprop="prepTime" >{{ page.recipe.prep }}</span></li>
 		{% endif %}
 		{% if page.recipe.cook %}
-		<li itemprop="cookTime" title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
+		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span itemprop="cookTime">{{ page.recipe.cook }}</span></li>
 		{% endif %}
 		
 	</ul>
