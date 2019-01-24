@@ -12,6 +12,11 @@ images:
   - url: /assets/img/tuxedo/thumb.png
     alt: How to make a suit cake
     title: How to make a suit cake
+    pin: /assets/img/tuxedo/pin.png
+    pin-desc: Tuxedo cake.
+    pin-id: 479914904038514790
+
+image: /assets/img/tuxedo/thumb.png
 
 youtube:
     url: https://youtu.be/Ji4w5v-lZxY

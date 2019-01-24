@@ -9,7 +9,7 @@ layout: post
 		<img src="{{ page.images[0].url | replace: '..', site.baseurl }}" data-pin-media="{{ page.images[0].pin | replace: '..', site.baseurl }}" alt="{{ page.title }}">
 	</div>
 
-	<div class="recipe-body">
+	<div itemprop="description" class="recipe-body">
 		{{ content }}
 	</div>
 
@@ -40,7 +40,7 @@ layout: post
 			</ul>
 		</div>
 
-		<div class="directions">
+		<div  itemprop="recipeInstructions" class="directions">
 			<h2>Directions</h2>
 			<ol>
 				{% for direction in page.recipe.directions %}

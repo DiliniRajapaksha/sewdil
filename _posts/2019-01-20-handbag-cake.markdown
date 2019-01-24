@@ -13,10 +13,9 @@ images:
     alt: How to make a handbag cake
     title: How to make a handbag cake
     pin: /assets/img/handbag/pin.png
-    pin-desc: Love this handbag cake cake.
-    pin-id: 479914904039917052
+    pin-desc: Love this simple handbag cake.
 
-image: /assets/img/polo/thumb.png
+image: /assets/img/handbag/thumb.png
 
 youtube:
     url: https://youtu.be/aGORehzR2pQ
