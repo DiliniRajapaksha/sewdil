@@ -30,4 +30,4 @@ recipe:
     - Add milk or water little by little while mixing unit desired consistency is achieved.
 ---
 
-
+This is the classic American buttercream recipe. The consistency can be adjusted to the requirement, i.e. if you want to cover a cake, it should be soft, so add a bit more liquid (milk or water) but if you want to pipe flowers then, it should be hard (you can omit the liquid).
