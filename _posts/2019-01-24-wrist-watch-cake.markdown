@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cake-video
 comments: true
 
 title:  "How to make a Wrist watch cake"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: cake-video
 comments: true
 
 title:  "How to make a Thomas the tank engine cake"
