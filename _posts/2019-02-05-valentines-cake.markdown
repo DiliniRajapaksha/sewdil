@@ -14,7 +14,7 @@ images:
     title: How to make a Thomas the tank engine cake 
     pin: /assets/img/valentines/pin.png
     pin-desc: Watch how to make this very easy cake.
-    <!-- pin-id: 479914904039909068 -->
+    pin-id: 479914904040169831
 
 image: /assets/img/valentines/thumb.png
 
