@@ -144,9 +144,10 @@ a, a:visited, a:hover, a:active {
 .recipe-container{
    list-style: none;
    display: flex;
+   flex-wrap: wrap;
 }
 .recipe-excerpt{
-  max-width: 25%;
+  width: 20em;
   padding: 1em;
 }
 
