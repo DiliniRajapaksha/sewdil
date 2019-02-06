@@ -13,8 +13,8 @@ images:
     alt: How to make a Polo shirt cake
     title: How to make a Polo shirt cake
     pin: /assets/img/polo/pin.png
-    pin-desc: Love this polo shirt cake.
-    pin-id: 479914904039917052
+    pin-desc: Watch how to make this cool polo shirt cake.
+    pin-id: 479914904040167017
 
 image: /assets/img/polo/thumb.png
 
