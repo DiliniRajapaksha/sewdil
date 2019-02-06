@@ -1,0 +1,8 @@
+
+	  <header class="blog-header">
+	    <h1 class="post-title tk-raleway printable" itemprop="name">{{ page.title }}</h1>
+	    <div class="post-meta">
+	    <time id="publish-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"></time>
+	    {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</div>
+	  </header>
+

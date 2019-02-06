@@ -8,7 +8,7 @@ images:
   - url: ../assets/img/recipes/pin/ganache.png
     alt: Chocolate Ganache Recipe
     title: Chocolate Ganache Recipe
-    pin: ../assets/img/recipes/american-buttercream-recipe.jpeg
+    pin: ../assets/img/recipes/pin/ganache.png
     pin-desc: Chocolate Ganache Recipe
 
 image: /assets/img/recipes/chocolate-ganache.jpg

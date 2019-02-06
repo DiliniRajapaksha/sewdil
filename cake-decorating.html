@@ -19,7 +19,7 @@ title: Sweet Valley Creations
             </header> -->
             <a href="{{post.url | prepend: site.baseurl}}">            
               {% assign image = post.images[0] %}
-              {% include image.html image=image styleClass="shadow"%}
+              {% include image.html image=image url=image.url styleClass="shadow"%}
             </a>
 
           </div>

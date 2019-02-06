@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: article
 ---
+
 <article class="recipe" itemscope itemtype="http://schema.org/Recipe">
 	
-	<meta name="name" content={ page.title }}>
+	{% include article-header.html %}
+
 	<div class="image">
 
-		<img src="{{ page.images[0].url | replace: '..', site.baseurl }}" data-pin-media="{{ page.images[0].pin | replace: '..', site.baseurl }}" alt="{{ page.title }}">
+		<img itemprop="image" src="{{ page.images[0].url | replace: '..', site.baseurl }}" data-pin-media="{{ page.images[0].pin | replace: '..', site.baseurl }}" alt="{{ page.title }}">
 	</div>
 
 	<div itemprop="description" class="recipe-body">

@@ -19,7 +19,7 @@ title: Sweet Valley Creations
             </header>
             <a href="{{recipe.url | prepend: site.baseurl}}">            
               {% assign image = recipe.images[0] %}
-              {% include image.html image=image styleClass="shadow"%}
+              {% include image.html image=image url=image.pin styleClass="shadow"%}
             </a>
 
           </div>

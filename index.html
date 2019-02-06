@@ -21,7 +21,7 @@ title: Sweet Valley Creations
           <!-- <div class="post-item-image col-md-6"> -->
             <a href="{{post.url | prepend: site.baseurl}}">            
               {% assign image = post.images[0] %}
-              {% include image.html image=image styleClass="shadow"%}
+              {% include image.html image=image url=image.url styleClass="shadow"%}
             </a>
           <!-- </div> -->
           <!-- <div class="post-item-intro"> -->
