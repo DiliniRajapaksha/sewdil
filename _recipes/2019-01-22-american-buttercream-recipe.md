@@ -2,6 +2,7 @@
 layout: recipe
 date: 2019-01-22
 title: American buttercream
+author: Dilini Rajapaksha
 categories:
   - recipe
 images: 

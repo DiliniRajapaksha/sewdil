@@ -7,7 +7,7 @@ layout: post
 
 <a href="{{page.youtube.url}}" target="_blank">
 		{% assign image = page.images[0] %}
-		{% include image.html image=image url=image.pin styleClass="first-image shadow center" id="main-image" %}
+		{% include image.html image=image url=image.url styleClass="first-image shadow center" id="main-image" %}
 </a>
 		<p id="description">{{page.description}}</p>
 
