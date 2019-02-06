@@ -22,7 +22,6 @@ logo: /assets/img/logo.png
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-redirect-from
 permalink: /:categories/:title/
 author: https://www.sweetvalleycreations.com

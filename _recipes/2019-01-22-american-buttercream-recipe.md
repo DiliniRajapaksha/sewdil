@@ -5,10 +5,10 @@ title: American buttercream
 categories:
   - recipe
 images: 
-  - url: ../assets/img/recipes/pin/buttercream-flowers.png
+  - url: /assets/img/recipes/pin/buttercream-flowers.png
     alt: American buttercream recipe
     title: American buttercream recipe
-    pin: ../assets/img/recipes/pin/buttercream-flowers.png
+    pin: /assets/img/recipes/pin/buttercream-flowers.png
     pin-desc: American buttercream recipe
 
 image: /assets/img/recipes/buttercream-flowers.jpeg

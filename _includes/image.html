@@ -4,6 +4,7 @@ class="img-responsive {{include.styleClass}}"
 src="{{ include.url | prepend: site.baseurl }}" 
 alt="{{ image.alt }}" 
 title="{{ image.title }}" 
+itemprop="image"
 {% if image.width %} width="{{ image.width }}" {% endif %} 
 {% if image.pin %} data-pin-media="{{ image.pin | prepend: site.baseurl }}" {% endif %} 
 {% if image.pin-desc %} data-pin-description="{{image.pin-desc}}" {% endif %}

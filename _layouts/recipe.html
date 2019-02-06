@@ -1,5 +1,6 @@
 ---
 layout: article
+
 ---
 
 <article class="recipe" itemscope itemtype="http://schema.org/Recipe">
@@ -7,8 +8,8 @@ layout: article
 	{% include article-header.html %}
 
 	<div class="image">
-
-		<img itemprop="image" src="{{ page.images[0].url | replace: '..', site.baseurl }}" data-pin-media="{{ page.images[0].pin | replace: '..', site.baseurl }}" alt="{{ page.title }}">
+		{% assign image = page.images[0] %}
+		{% include image.html image=image url=image.pin styleClass="first-image shadow center" id="main-image" %}
 	</div>
 
 	<div itemprop="description" class="recipe-body">
@@ -37,7 +38,7 @@ layout: article
 			<h2>Ingredients</h2>
 			<ul>
 				{% for ingredient in page.recipe.ingredients %}
-					<li itemprop="ingredients">{{ingredient}}</li>
+					<li itemprop="recipeIngredient">{{ingredient}}</li>
 				{% endfor %}
 			</ul>
 		</div>
