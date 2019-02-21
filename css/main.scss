@@ -587,6 +587,10 @@ $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 900px)";
 $light-grey: #999;
 
+ @media #{$desktop} {
+       
+      }
+
 .recipe {
   h1 a {
     color: #000;
