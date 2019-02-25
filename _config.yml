@@ -31,3 +31,6 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:title/
+
+general_mailmunch_popup: mailmunch-pop-747264
+

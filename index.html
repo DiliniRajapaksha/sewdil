@@ -3,39 +3,13 @@ layout: default
 title: Sweet Valley Creations
 ---
 
- <div class="container">
-        
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-      <div class="post-excerpt">
-       <!--  <header class="post-header">
-        <h1><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        <div class="post-meta"><h6>{{ post.date | date: '%B %d, %Y' }}</h6></div>
-        </header> -->
-        <div class="post-item"> 
-            <header class="post-header">
-              <h1><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-              <div class="post-meta"><h6>{{ post.date | date: '%B %d, %Y' }}</h6></div>
-            </header>
-          <!-- <div class="post-item-image col-md-6"> -->
-            <a href="{{post.url | prepend: site.baseurl}}">            
-              {% assign image = post.images[0] %}
-              {% include image.html image=image url=image.url styleClass="shadow"%}
-            </a>
-          <!-- </div> -->
-          <!-- <div class="post-item-intro"> -->
-            <div class="post-item-desc">{{post.description}}</div>
-            <a href="{{post.url | prepend: site.baseurl}}" class="btn btn-default">Read More</a>
-          </div>
-        <!-- </div> -->
-        
-        </div>
+  {% include cover.html %}
 
-      </li>
-    {% endfor %}
-  </ul>
+<ul class="nav">
+	{% include nav-items.html %}
+</ul>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
+<div class="logo-bottom">
+   {% include logo.html %}
 </div>

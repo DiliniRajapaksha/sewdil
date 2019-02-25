@@ -1,28 +1,24 @@
 ---
 layout: post
 ---
-<article class="recipe">
-	
-	<div class="center first-image">
+<article>
 
-<a href="{{page.youtube.url}}" target="_blank">
-		{% assign image = page.images[0] %}
-		{% include image.html image=image url=image.url styleClass="first-image shadow center" id="main-image" %}
-</a>
+	{% include article-header.html %}
+	
+	<div class="video-image-grid">
+
+		<a class="video-image" href="{{page.youtube.url}}" target="_blank">
+			{% assign image = page.images[0] %}
+			{% include image.html image=image url=image.url styleClass="first-image shadow center" id="main-image" %}
+		</a>
+		<a class="play-icon" href="{{page.youtube.url}}" target="_blank">
+			<img src="/assets/img/youtube.svg" alt="Play on YouTube" title="Play on Youtube">
+		</a>
 		<p id="description">{{page.description}}</p>
 
 	</div>
 
-	<div class="row content">
-		{{ content }}
-	</div>
+	
 
-	{% if page.youtube.embed %}
-
-	  	<div class="center row">
-			<iframe width="560" height="315" src="{{page.youtube.embed}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-
-	  {% endif %}
 	
 </article>

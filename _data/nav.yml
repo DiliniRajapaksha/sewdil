@@ -1,0 +1,14 @@
+- name: HOME
+  url: index.html 
+
+- name: CAKE-DECORATING
+  url: cake-decorating
+
+- name: RECIPES
+  url: recipes
+
+- name: CONTACT
+  url: contact
+
+- name: YOUTUBE
+  ext: https://www.youtube.com/c/sweetvalleycreations

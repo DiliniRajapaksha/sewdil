@@ -2,35 +2,18 @@
 layout: default
 title: Sweet Valley Creations
 ---
-
- <div class="container">
         
-  <ul class="recipe-container">
+  {% include nav-bar.html%}
+
+  <ul class="image-grid">
     {% for post in site.posts %}
       <li class="recipe-excerpt">
-      <div >
-       <!--  <header class="post-header">
-        <h1><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        <div class="post-meta"><h6>{{ post.date | date: '%B %d, %Y' }}</h6></div>
-        </header> -->
-        <div class="post-item"> 
-            <!-- <header class="item-header">
-              <h1><a class="post-title item-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-            </header> -->
-            <a href="{{post.url | prepend: site.baseurl}}">            
-              {% assign image = post.images[0] %}
-              {% include image.html image=image url=image.url styleClass="shadow"%}
-            </a>
-
-          </div>
-
-        
-        </div>
-
+       <a href="{{post.url | prepend: site.baseurl}}">            
+        {% assign image = post.images[0] %}
+        {% include image.html image=image url=image.url styleClass="shadow"%}
+      </a>
       </li>
     {% endfor %}
   </ul>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
-</div>
+  {% include signup.html %}

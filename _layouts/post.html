@@ -1,15 +1,15 @@
 ---
-layout: article
+layout: default
 ---
 
-	<article class="post" markdown="1" itemprop="http://schema.org/blogPost">
+{% include nav-bar.html%}
 
-	  {% include article-header.html %}
+<main>
+  
+  {{ content }}
 
-	  <div markdown="1" class="post-content tk-europa" itemprop="articleBody">
-	    {{ content }}
-	  </div>
+  <aside>
+    {% include signup.html styleClass="fixed-signup" %}
+  </aside>
 
-	</article>
-
-	{% include mailmunch-email-form.html %}
+</main>
