@@ -16,6 +16,9 @@
 		{% for image in site.data.cover-images %}
 		    <li class="thumb">
 		      <a class="thumb-link" href="/blog/{{ image.post  | prepend: site.baseurl}}">
+		      	<!-- <picture>
+		      		<source src="med-res.jpg">
+		      	</picture> -->
 		      	<img src="{{ image.url  | prepend: site.baseurl}}" alt="image.post">
 		      </a>
 		    </li>

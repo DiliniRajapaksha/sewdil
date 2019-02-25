@@ -27,6 +27,3 @@ recipe:
     - Pour hot cream over chocolate and let it sit for few minutes.
     - Mix until all combined.
 ---
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in urna velit. Aenean vitae magna gravida, blandit purus ut, laoreet ligula. Vivamus iaculis, odio quis gravida dapibus, ex ex auctor odio, sed bibendum sapien neque sit amet lacus. Donec ultrices sed metus vitae luctus. Curabitur eget ligula dapibus, laoreet ante ac, vulputate mauris. Etiam non tellus varius ante lobortis cursus ut at purus. Sed eleifend dolor non leo aliquet, ut porttitor mi venenatis. Curabitur nec iaculis neque. Donec nec tempor est. Pellentesque convallis nibh non lacus molestie, ac malesuada quam fermentum.

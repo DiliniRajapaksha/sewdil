@@ -9,14 +9,14 @@ markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 description: "Making a tuxedo cake"
 excerpt_separator: <!--more-->
 images: 
-  - url: /assets/img/tuxedo/thumb.png
+  - url: /assets/img/tuxedo/thumb.jpg
     alt: How to make a suit cake
     title: How to make a suit cake
     pin: /assets/img/tuxedo/pin.png
     pin-desc: Tuxedo cake.
     pin-id: 479914904038514790
 
-image: /assets/img/tuxedo/thumb.png
+image: /assets/img/tuxedo/thumb.jpg
 
 youtube:
     url: https://youtu.be/Ji4w5v-lZxY

@@ -9,7 +9,7 @@ markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 description: "Making a Ralph lauren polo shirt cake"
 excerpt_separator: <!--more-->
 images: 
-  - url: /assets/img/polo/thumb.png
+  - url: /assets/img/polo/thumb.jpg
     alt: How to make a Polo shirt cake
     title: How to make a Polo shirt cake
     class: front
@@ -17,7 +17,7 @@ images:
     pin-desc: Watch how to make this cool polo shirt cake.
     pin-id: 479914904040167017
 
-image: /assets/img/polo/thumb.png
+image: /assets/img/polo/thumb.jpg
 
 youtube:
     url: https://youtu.be/h8HAf1g4tLA

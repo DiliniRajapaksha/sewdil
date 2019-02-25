@@ -9,14 +9,14 @@ markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 description: "Making Thomas the tank engine cake"
 excerpt_separator: <!--more-->
 images: 
-  - url: /assets/img/thomas/thumb.png
+  - url: /assets/img/thomas/thumb.jpg
     alt: How to make a Thomas the tank engine cake 
     title: How to make a Thomas the tank engine cake 
     pin: /assets/img/thomas/pin.png
     pin-desc: Watch how to make this cute Thomas train cake face. Perfect birthday cake for a little boy.
     pin-id: 479914904039909068
 
-image: /assets/img/thomas/thumb.png
+image: /assets/img/thomas/thumb.jpg
 
 youtube:
     url: https://youtu.be/W_0IXxmN_vE
