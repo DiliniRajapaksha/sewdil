@@ -12,6 +12,7 @@ images:
   - url: /assets/img/polo/thumb.png
     alt: How to make a Polo shirt cake
     title: How to make a Polo shirt cake
+    class: front
     pin: /assets/img/polo/pin.png
     pin-desc: Watch how to make this cool polo shirt cake.
     pin-id: 479914904040167017

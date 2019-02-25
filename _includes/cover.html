@@ -1,0 +1,25 @@
+<div class="cover-grid">
+	<div class="main-cta">
+		<p>Want to receive the latest</p>
+		<p class=""> CAKE DECORATING</p>
+		<p class="brand-pink large-text"> VIDEOS, RECIPES & INSPIRATOIN </p>
+		<p> right to your inbox?</p>
+        <div class="btn">
+        	<a href="#{{site.general_mailmunch_popup}}">
+        		<p>YES Please!</p>
+        	</a>
+        </div>
+	</div>
+
+	
+	<ul class="images-list">	
+		{% for image in site.data.cover-images %}
+		    <li class="thumb">
+		      <a class="thumb-link" href="/blog/{{ image.post  | prepend: site.baseurl}}">
+		      	<img src="{{ image.url  | prepend: site.baseurl}}" alt="image.post">
+		      </a>
+		    </li>
+		{% endfor %}
+	</ul>
+	
+</div>

@@ -5,4 +5,13 @@ $( document ).ready(function() {
          $('.printable').show();
          window.print();
      });
+
+    $('.nav-btn').click(function () {
+    	$('.nav-verticle').toggle();
+    });
+
+    $( window ).resize(function() {
+        $('.nav-verticle').hide();
+    });
 });
+

@@ -4,35 +4,27 @@
   {% include head.html %}
 
   <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDVTFZ4"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <div class="container-fluid">
-    
-    <div class="row">
-      {% include header.html %}
-    </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDVTFZ4"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+      
+    <div class="container">
 
-    <div class="row">
-        {{ content }}
-    </div>
- 
-    <div class="row footer">
-    {% include footer.html %}
-    </div>
+          {{ content }}
 
     </div>
-    
-   <script src="https://use.typekit.net/cng0pjz.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src={{ "/js/main.js" | prepend: site.baseurl }}></script>
+
+    <script src="https://use.typekit.net/cng0pjz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src={{ "/js/main.js" | prepend: site.baseurl }}></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-  <script id="dsq-count-scr" src="//sweetvalleycreations.disqus.com/count.js" async></script>
-  <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='ea7257d9818b6a964e5d309dcbb150dc838f02d79d7d923493df369375bca500';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <script id="dsq-count-scr" src="//sweetvalleycreations.disqus.com/count.js" async></script>
+    <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='ea7257d9818b6a964e5d309dcbb150dc838f02d79d7d923493df369375bca500';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
   </body>
 </html>

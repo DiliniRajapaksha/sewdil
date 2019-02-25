@@ -1,6 +1,5 @@
 ---
-layout: article
-
+layout: post
 ---
 
 <article class="recipe" itemscope itemtype="http://schema.org/Recipe">
@@ -16,50 +15,46 @@ layout: article
 		{{ content }}
 	</div>
 
-	<ul id="recipe" class="recipe-overview printable">
-		{% if page.recipe.servings %}
-			<li title="Yields">{% include recipe-icon.html icon="quantity" %}<span itemprop="recipeYield">{{ page.recipe.servings }}</span></li>
-		{% endif %}	
-		{% if page.recipe.prep %}
-			<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span itemprop="prepTime" >{{ page.recipe.prep }}</span></li>
-		{% endif %}
-		{% if page.recipe.cook %}
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span itemprop="cookTime">{{ page.recipe.cook }}</span></li>
-		{% endif %}
-		
-	</ul>
+	<div>
+		<ul class="recipe-overview printable">
+			{% if page.recipe.servings %}
+				<li title="Yields">{% include recipe-icon.html icon="quantity" %}<span itemprop="recipeYield">{{ page.recipe.servings }}</span></li>
+			{% endif %}	
+			{% if page.recipe.prep %}
+				<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span itemprop="prepTime" >{{ page.recipe.prep }}</span></li>
+			{% endif %}
+			{% if page.recipe.cook %}
+				<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span itemprop="cookTime">{{ page.recipe.cook }}</span></li>
+			{% endif %}
+			
+		</ul>
 
+		<div class="recipe-contents printable">
+			<div id="print-link" title="Print recipe" class="no-print">
+				{% include printer-icon.svg %}
+			</div>
+			<div class="ingredients">
+				<h2>Ingredients</h2>
+				<ul>
+					{% for ingredient in page.recipe.ingredients %}
+						<li itemprop="recipeIngredient">{{ingredient}}</li>
+					{% endfor %}
+				</ul>
+			</div>
 
-	<div class="recipe-contents printable">
-		<div id="print-link" title="Print recipe" class="no-print">
-			{% include printer-icon.svg %}
+			<div  itemprop="recipeInstructions" class="directions">
+				<h2>Directions</h2>
+				<ol>
+					{% for direction in page.recipe.directions %}
+						<li itemprop="step">{{direction}}</li>
+					{% endfor %}
+				</ol>
+			</div>
+			<p id="recipe-footer" class="printable">sweetvalleycreations.com</p>
 		</div>
-		<div class="ingredients">
-			<h2>Ingredients</h2>
-			<ul>
-				{% for ingredient in page.recipe.ingredients %}
-					<li itemprop="recipeIngredient">{{ingredient}}</li>
-				{% endfor %}
-			</ul>
-		</div>
-
-		<div  itemprop="recipeInstructions" class="directions">
-			<h2>Directions</h2>
-			<ol>
-				{% for direction in page.recipe.directions %}
-					<li itemprop="step">{{direction}}</li>
-				{% endfor %}
-			</ol>
-		</div>
-		<p id="recipe-footer" class="printable">sweetvalleycreations.com</p>
 	</div>
-
 	
-	<div class="cta">
-		<h2>More delicious recipes</h2>
-		<p>This is one of the many fantastic recipes available on this blog</p>
-		<div class="button"><a href="/recipes">Check out more recipes</a></div>
-	</div>
+	
 	
 </article>
 

@@ -1,0 +1,31 @@
+- url: /assets/img/polo/thumb.png
+  order: 1
+  post: polo-shirt-cake
+
+- url: /assets/img/thomas/thumb.png
+  order: 2
+  post: thomas-train-cake
+
+- url: /assets/img/tuxedo/thumb.png
+  order: 3
+  post: tuxedo-cake
+
+- url: /assets/img/watch/thumb.png
+  order: 4
+  post: wrist-watch-cake
+
+- url: /assets/img/handbag/thumb.png
+  order: 4
+  post: wrist-handbag-cake
+
+- url: /assets/img/giftbox/thumb.png
+  order: 4
+  post: wrist-gift-box-cake
+
+- url: /assets/img/valentines/thumb.png
+  order: 4
+  post: wrist-valentines-cake
+
+- url: /assets/img/bcflowercake/thumb.png
+  order: 4
+  post: buttercream-flowers-cake
