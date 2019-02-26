@@ -7,6 +7,7 @@ $( document ).ready(function() {
      });
 
     $('.nav-btn').click(function () {
+
     	$('.nav-verticle').toggle();
     });
 
