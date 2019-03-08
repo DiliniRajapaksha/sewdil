@@ -1,6 +1,6 @@
 <img 
 {% if include.id %} id="{{ include.id }}" {% endif %} 
-class="img-responsive {{include.styleClass}}" 
+class="img-responsive {{include.styleClass}} shadow" 
 src="{{ include.url | prepend: site.baseurl }}" 
 alt="{{ image.alt }}" 
 title="{{ image.title }}" 
