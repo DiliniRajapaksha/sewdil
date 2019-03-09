@@ -14,7 +14,7 @@ images:
     title: How to make a Wrist watch cake
     pin: /assets/img/watch/pin.png
     pin-desc: Watch how to make this elegent wrist watch in a box cake. Perfect birthday cake for a man.
-    pin-id: 479914904040156352
+    
 
 image: /assets/img/watch/thumb.jpg
 
