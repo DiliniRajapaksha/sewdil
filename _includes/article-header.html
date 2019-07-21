@@ -5,7 +5,7 @@
 	    <time id="publish-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"></time>
 	    {% if page.author %}
 	     	<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-	     		<span itemprop="name hidden">{{ page.author }}</span>
+	     		<span class="author" itemprop="name hidden">by {{ page.author }}</span>
 	     	</span>
 	    {% endif %}
 	</div>
