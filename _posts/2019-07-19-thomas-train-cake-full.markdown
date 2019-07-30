@@ -30,4 +30,4 @@ youtube:
 
 
 
-<div class="gumroad-product-embed" data-gumroad-product-id="hMdhq"><a href="https://gumroad.com/l/hMdhq">Loading...</a></div>
+<div class="gumroad-product-embed" data-gumroad-product-id="hMdhq"><a href="https://gumroad.com/l/hMdhq/free">Loading...</a></div>
