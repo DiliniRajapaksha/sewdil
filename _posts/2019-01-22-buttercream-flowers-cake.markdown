@@ -1,6 +1,7 @@
 ---
 layout: cake-video
 comments: true
+sign-up: true
 
 title:  "How to make a buttercream flower cake"
 date:   2019-01-22 13:33:41 +1100

@@ -1,6 +1,7 @@
 ---
 layout: cake-video
 comments: true
+sign-up: true
 
 title:  "How to make a Thomas's face"
 date:   2019-01-24 13:33:41 +1100

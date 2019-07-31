@@ -1,6 +1,7 @@
 ---
 layout: cake-video
 comments: true
+sign-up: true
 
 title:  "Easy cake decorating idea"
 date:   2019-02-05 13:33:41 +1100

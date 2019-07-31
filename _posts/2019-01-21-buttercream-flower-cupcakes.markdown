@@ -1,6 +1,7 @@
 ---
 layout: cake-video
 comments: true
+sign-up: true
 
 title:  "How to make buttercream flower cupcakes"
 date:   2019-01-21 13:33:41 +1100

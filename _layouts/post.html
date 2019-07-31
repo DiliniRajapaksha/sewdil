@@ -9,7 +9,9 @@ layout: default
   {{ content }}
 
   <aside>
-    {% include signup.html %}
+  	{% if page.sign-up %}
+		{% include signup.html %}
+	{% endif %}
   </aside>
 
 </main>
