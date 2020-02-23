@@ -20,8 +20,8 @@ images:
 image: /assets/img/thomas/thumb-face.png
 
 youtube:
-    url: https://youtu.be/W_0IXxmN_vE
-    embed: https://www.youtube.com/embed/W_0IXxmN_vE
+    url: https://youtu.be/colZMNZTBgM
+    embed: https://www.youtube.com/embed/colZMNZTBgM
 ---
 
 Part 2 of this video: [How to make Thomas The Tank Engine cake]({% post_url 2019-07-19-thomas-train-cake-full %})
