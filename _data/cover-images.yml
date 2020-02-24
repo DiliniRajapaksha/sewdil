@@ -1,6 +1,7 @@
-- url: /assets/img/polo/thumb.jpg
+
+- url: /assets/img/watch/thumb.jpg
   order: 1
-  post: polo-shirt-cake
+  post: wrist-watch-cake
 
 - url: /assets/img/thomas/thumb.jpg
   order: 2
@@ -10,22 +11,22 @@
   order: 3
   post: tuxedo-cake
 
-- url: /assets/img/watch/thumb.jpg
+- url: /assets/img/polo/thumb.jpg
   order: 4
-  post: wrist-watch-cake
+  post: polo-shirt-cake
 
 - url: /assets/img/handbag/thumb.jpg
-  order: 4
+  order: 5
   post: handbag-cake
 
 - url: /assets/img/giftbox/thumb.jpg
-  order: 4
+  order: 6
   post: gift-box-cake
 
 - url: /assets/img/valentines/thumb.jpg
-  order: 4
+  order: 7
   post: valentines-cake
 
 - url: /assets/img/bcflowercake/thumb.jpg
-  order: 4
+  order: 8
   post: buttercream-flowers-cake
