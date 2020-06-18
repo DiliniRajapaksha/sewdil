@@ -32,7 +32,38 @@ image: /assets/img/thomas/thumb.jpg
 youtube:
     url: https://youtu.be/Frt5p5SlV0k
     embed: https://www.youtube.com/embed/Frt5p5SlV0k
+
+reviews:
+  - title: Rozanna from @sweetestcakelove
+    title-link: https://www.instagram.com/sweetestcakelove/
+    text-img: /assets/img/thomas/reviews/Rozanna-text.png
+    pictures:
+      - img-url: /assets/img/thomas/reviews/Rozanna.jpg
+
+  - title: Andrea
+    text-img: /assets/img/thomas/reviews/Andrea-text.png
+    pictures:
+      - img-url: /assets/img/thomas/reviews/Andrea.png
+
+  - title:
+    pictures:
+      - img-url: /assets/img/thomas/reviews/corkspride2.jpg
+      - img-url: /assets/img/thomas/reviews/corkspride3.jpg
+
+  - title: Siemin
+    text-img: /assets/img/thomas/reviews/Siemin-text.png
+    pictures:
+      - img-url: /assets/img/thomas/reviews/Siemin.jpg
+
 ---
+
+
+<div class="reviews-container">
+  {% for review in page.reviews %}
+    {% include reviews.html review = review %}
+  {% endfor %}
+</div>
+
 
 {% include download.html %}
 

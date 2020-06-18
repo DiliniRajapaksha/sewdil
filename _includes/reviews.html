@@ -1,0 +1,28 @@
+<div class="review">
+	
+	{% if review.title-link %}
+	 	<div class="review-title review-link">
+			<a href="{{review.title-link}}">{{review.title}}</a>
+			
+		</div>
+	{% else if review.title %}
+	 	<div class="review-title">
+			{{review.title}}
+		</div>
+	{% endif %}
+	
+	{% if review.text-img %}
+		<div class="review-text">
+			<img src="{{review.text-img}}" alt="">
+		</div>
+	{% endif %}
+	
+	{% if review.pictures %}
+		<div class="review-images">
+			{% for picture in review.pictures %}
+	  			<img src="{{picture.img-url}}" alt="">
+			{% endfor %}
+		</div>
+	{% endif %}
+
+</div>
