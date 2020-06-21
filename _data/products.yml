@@ -1,0 +1,9 @@
+- title: Round cutter Set
+  url: https://amzn.to/2Uxfqir
+  ad: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sweetvalley0e-20&marketplace=amazon&region=US&placement=B00004S1CI&asins=B00004S1CI&linkId=8b9c3101d9d3d25510f8859b3e9f292b&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+
+- title: Fondant Extruder
+  url: https://amzn.to/2Ye1Gv4
+  ad: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=sweetvalley0e-20&marketplace=amazon&region=US&placement=B01F3WUKO0&asins=B01F3WUKO0&linkId=b29f370bebd51108fcb30abedc6047ce&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+
+# Usage: {{ site.data.products[0].ad }}
