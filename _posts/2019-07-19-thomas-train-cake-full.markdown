@@ -26,39 +26,39 @@ images:
     pin-desc: Watch how to make this cute Thomas train cake. Perfect birthday cake for a little boy.
     pin-id: 479914904042157110
 #1
-  - url: /assets/img/thomas/cake-layers.jpeg
+  - url: /assets/img/thomas/stills/cake-layers.jpg
     alt: Cake layers of Thomas the tank engine cake 
     title: Cake layers of Thomas the tank engine cake 
 #2
-  - url: /assets/img/thomas/stills/ganached.gif
+  - url: /assets/img/thomas/stills/ganached.jpg
 #3
-  - url: /assets/img/thomas/stills/covering-top.png
+  - url: /assets/img/thomas/stills/covering-top.jpg
 #4
-  - url: /assets/img/thomas/stills/covering-back.gif
+  - url: /assets/img/thomas/stills/covering-back.jpg
 #5
-  - url: /assets/img/thomas/stills/covered.png
+  - url: /assets/img/thomas/stills/covered.jpg
 #6
-  - url: /assets/img/thomas/stills/decorations.png
+  - url: /assets/img/thomas/stills/decorations.jpg
 #7
-  - url: /assets/img/thomas/stills/sticking.gif
+  - url: /assets/img/thomas/stills/sticking.jpg
 #8
-  - url: /assets/img/thomas/stills/wheel.png
+  - url: /assets/img/thomas/stills/wheel.jpg
 #9
-  - url: /assets/img/thomas/stills/adding-wheels.png
+  - url: /assets/img/thomas/stills/adding-wheels.jpg
 #10
-  - url: /assets/img/thomas/stills/face-1.gif
+  - url: /assets/img/thomas/stills/face-1.jpg
 #11
-  - url: /assets/img/thomas/stills/face-2.gif
+  - url: /assets/img/thomas/stills/face-2.jpg
 #12
-  - url: /assets/img/thomas/stills/base.png
+  - url: /assets/img/thomas/stills/base.jpg
 #13
-  - url: /assets/img/thomas/stills/base-covered.png
+  - url: /assets/img/thomas/stills/base-covered.jpg
 #14
-  - url: /assets/img/thomas/stills/base-tracks.png
+  - url: /assets/img/thomas/stills/base-tracks.jpg
 #15
-  - url: /assets/img/thomas/stills/base-foam.png
+  - url: /assets/img/thomas/stills/base-foam.jpg
 #16
-  - url: /assets/img/thomas/stills/trimming.gif
+  - url: /assets/img/thomas/stills/trimming.jpg
 #17
   - url: /assets/img/thomas/stills/clipped.png
 
@@ -153,6 +153,7 @@ I smoothed the back of the train last and then cut out any extra fondant with a 
   {% assign image = page.images[4] %}
   {% include image.html image=image url=image.url %}
 </div>
+
 
 Trim the excess fondant from the bottom leaving the bottom-most layer uncovered. So, this is how it looked when finished covering with blue fondant.
 
@@ -286,7 +287,7 @@ A template would definitely make your life easier with this kind of cake. So tha
 
 <hr/>
 
-## Template Reviews, Feedback and Pictures from users
+## Template Reviews, Feedback and Pictures
 
 <hr/> 
 
