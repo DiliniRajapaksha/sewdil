@@ -9,6 +9,11 @@ layout: default
   {{ content }}
 
   <aside>
+
+  	{% if page.comments %}
+		{% include comments.html %}
+	{% endif %}
+
   	{% if page.sign-up %}
 		{% include signup.html %}
 	{% endif %}
