@@ -603,6 +603,11 @@ $desktop: "(min-width: 900px)";
   margin: 5em auto;
 }
 
+.clip-sm{
+  max-width: 700px;
+  margin: 5em auto;
+}
+
 /*Reviews display*/
 .reviews-container{
   display: grid;
