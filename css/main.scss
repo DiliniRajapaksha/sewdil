@@ -352,6 +352,7 @@ aside{
 .video-image-grid{
   display: grid;
   grid:"video";
+  justify-content: center;
 }
 
 .video-image{
@@ -597,6 +598,11 @@ $desktop: "(min-width: 900px)";
 /*end of @media print*/
 /*end recipe*/
 
+.post-images{
+  max-width: 700px;
+  margin: 5em auto;
+}
+
 /*Reviews display*/
 .reviews-container{
   display: grid;
@@ -636,6 +642,21 @@ footer{
 
 /*Util*/
 
+.img-sm{
+  max-width: 350px;
+}
+
 .center{
   text-align: center;
+}
+
+.border-box{
+    border: 4px solid #ece099;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.emoji{
+  width: auto;
+  display: inline;
 }

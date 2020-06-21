@@ -23,6 +23,7 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
 permalink: /:categories/:title/
 author: https://www.sweetvalleycreations.com
 name: sweetvalleycreations.com
