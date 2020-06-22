@@ -139,6 +139,11 @@ aside{
   flex-flow: column;
   overflow: auto;
 }
+#scroll-down-btn{
+  display: none;
+}
+
+
 .nav{
   width: 100%;
   background-color: #ffffff;
@@ -170,14 +175,19 @@ aside{
   }
 
   .images-list{
-    flex-direction: row;
+    overflow: visible;
+    /*flex-direction: row;*/
   }
   .images-list .thumb img{
     height: 100%;
-    width: auto;
+    width: 100%;
   }
   .main-cta p{
     font-size: 3vmax;
+  }
+
+  #scroll-down-btn{
+  display: block;
   }
 }
 

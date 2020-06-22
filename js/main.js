@@ -14,5 +14,14 @@ $( document ).ready(function() {
     $( window ).resize(function() {
         $('.nav-verticle').hide();
     });
+
+    $( window ).scroll(function() {
+        if ($(window).width() <= 480) {  
+            $( "#main-cta" ).slideUp(700);
+            $("#scroll-down-btn").click(function () {
+                $( "#main-cta" ).slideUp(900);
+            });
+        }
+    });
 });
 
