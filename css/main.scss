@@ -613,6 +613,18 @@ $desktop: "(min-width: 900px)";
   margin: 5em auto;
 }
 
+.post-images-sm{
+    max-width: 300px;
+}
+
+.post-images-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    grid-gap: 1rem;
+    margin-bottom: 2em;
+}
+
 .clip-sm{
   max-width: 700px;
   margin: 5em auto;
