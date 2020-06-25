@@ -1,0 +1,15 @@
+<div id="{{page.download-id}}" class="sign-up {{include.styleClass}}">
+	<a href="{{page.download-link}}" target="_blank">
+		<div>
+			<h5>{{page.download-title}}</h5>
+			
+			<p>{{page.download-desc-1}}</p>
+			<p class="emphasise">{{page.download-desc-2}}</p>
+			<p>{{page.download-desc-3}}</p>
+			<img src="{{page.download-icon | prepend: site.baseurl }}" alt="Download {{page.download-title}}">
+			<div class="button">
+				<a class="gumroad-button" href="{{page.download-link}}" target="_blank">{{page.download-btn-text}}</a>
+			</div>
+		</div>
+	</a>
+</div>
