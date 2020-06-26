@@ -283,7 +283,7 @@ When the train is placed on top of the foam, the wheels can be added. I had to t
 
 A template would definitely make your life easier with this kind of cake. So that's the reason why I created this template! You can download it by clicking the button below :point_down:
 
-{% include download.html %}
+{% include download-template.html %}
 
 <hr/>
 
