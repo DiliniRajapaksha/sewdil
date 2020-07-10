@@ -79,7 +79,7 @@ reviews:
   - title: Andrea
     text-img: /assets/img/thomas/reviews/Andrea-text.png
     pictures:
-      - img-url: /assets/img/thomas/reviews/Andrea.png
+      - img-url: /assets/img/thomas/reviews/Andrea.jpg
 
   - title:
     pictures:
@@ -89,6 +89,11 @@ reviews:
     text-img: /assets/img/thomas/reviews/Siemin-text.png
     pictures:
       - img-url: /assets/img/thomas/reviews/Siemin.jpg
+
+  - title: Danielle
+    text-img: /assets/img/thomas/reviews/Danielle-text.png
+    pictures:
+      - img-url: /assets/img/thomas/reviews/Danielle.jpg
 
 ---
 
