@@ -1,32 +1,36 @@
 
 - url: /assets/img/watch/thumb.jpg
   order: 1
+  post: shirt-cake
+
+- url: /assets/img/watch/thumb.jpg
+  order: 2
   post: wrist-watch-cake
 
 - url: /assets/img/thomas/thumb.jpg
-  order: 2
+  order: 3
   post: thomas-train-cake-full
 
 - url: /assets/img/tuxedo/thumb.jpg
-  order: 3
+  order: 4
   post: tuxedo-cake
 
 - url: /assets/img/polo/thumb.jpg
-  order: 4
+  order: 5
   post: polo-shirt-cake
 
 - url: /assets/img/handbag/thumb.jpg
-  order: 5
+  order: 6
   post: handbag-cake
 
 - url: /assets/img/giftbox/thumb.jpg
-  order: 6
+  order: 7
   post: gift-box-cake
 
 - url: /assets/img/valentines/thumb.jpg
-  order: 7
+  order: 8
   post: valentines-cake
 
 - url: /assets/img/bcflowercake/thumb.jpg
-  order: 8
+  order: 9
   post: buttercream-flowers-cake

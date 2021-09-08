@@ -24,7 +24,7 @@ images:
     title: How to make a shirt cake 
     pin: /assets/img/shirt-cake/pin.jpg
     pin-desc: Watch how to make a the perfect men's shirt cake
-    pin-id: 
+    pin-id: 479914904050850920
 #1
   - url: /assets/img/shirt-cake/stills/1.jpg
 #2
