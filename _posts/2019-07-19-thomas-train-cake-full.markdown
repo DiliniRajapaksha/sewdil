@@ -26,7 +26,7 @@ images:
     pin-desc: Watch how to make this cute Thomas train cake. Perfect birthday cake for a little boy.
     pin-id: 479914904042157110
 #1
-  - url: /assets/img/thomas/stills/cake-layers.jpg
+  - url: /assets/img/thomas/stills/1.jpg
     alt: Cake layers of Thomas the tank engine cake 
     title: Cake layers of Thomas the tank engine cake 
 #2
